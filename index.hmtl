@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CharZ EV Charging</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f7f6;
+      color: #18312d;
+    }
+    header {
+      background: #103b35;
+      color: white;
+      padding: 24px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 30px;
+    }
+    main {
+      max-width: 700px;
+      margin: 24px auto;
+      padding: 16px;
+    }
+    .card {
+      background: white;
+      padding: 22px;
+      margin-bottom: 18px;
+      border-radius: 14px;
+      box-shadow: 0 2px 10px #00000010;
+    }
+    .button {
+      display: inline-block;
+      background: #087f5b;
+      color: white;
+      padding: 12px 18px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 24px;
+      color: #60716d;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>⚡ CharZ EV Charging</h1>
+    <p>Find EV charging closer to you.</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Find a Charging Station</h2>
+      <p>Discover neighbourhood charging points for your electric vehicle.</p>
+      <p>Our station directory is coming soon.</p>
+    </section>
+
+    <section class="card">
+      <h2>Host a Charger at Your Property</h2>
+      <p>Have parking space? Partner with CharZ and explore earning from EV charging.</p>
+      <a class="button"
+         href="mailto:YOUR_EMAIL@example.com?subject=EV%20Charger%20Partnership">
+        Become a Host
+      </a>
+    </section>
+
+    <section class="card">
+      <h2>Our Mission</h2>
+      <p>Building a neighbourhood network of accessible EV charging points, one property at a time.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 CharZ EV Charging</p>
+    <p>Neighbourhood charging, connected.</p>
+  </footer>
+</body>
+</html>
